@@ -3,7 +3,7 @@
 To setup Angular project, I use angular-seed [https://github.com/angular/angular-seed] to quickly bootstrap this angular webapp projects and dev environment.
 
 ##TODO List
-- Enable Travis CI
+- Enable Travis CI **DONE**
 - Add localStorage support
 - Add some other functionalities: Search, filter, edit, remove, add multiple todos
 - Add more test cases
