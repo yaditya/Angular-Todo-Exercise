@@ -2,24 +2,15 @@
 
 To setup Angular project, I use angular-seed [https://github.com/angular/angular-seed] to quickly bootstrap this angular webapp projects and dev environment.
 
-##Installation instructions from [https://github.com/angular/angular-seed](https://github.com/angular/angular-seed)
+##TODO List
+- Add localStorage support
+- Add some other functionalities: Search, filter, edit, remove, add multiple todos
+- Add more test cases
+- ...
 
-### Prerequisites
-
-You need git to clone the angular-seed repository. You can get git from
-[http://git-scm.com/](http://git-scm.com/).
-
-We also use a number of node.js tools to initialize and test angular-seed. You must have node.js and
-its package manager (npm) installed.  You can get them from [http://nodejs.org/](http://nodejs.org/).
-
+##Installation instructions from [angular-seed github](https://github.com/angular/angular-seed)
 
 ### Install Dependencies
-
-We have two kinds of dependencies in this project: tools and angular framework code.  The tools help
-us manage and test the application.
-
-* We get the tools we depend upon via `npm`, the [node package manager][npm].
-* We get the angular code via `bower`, a [client-side code package manager][bower].
 
 We have preconfigured `npm` to automatically run `bower` so we can simply do:
 
