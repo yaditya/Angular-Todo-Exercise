@@ -1,0 +1,24 @@
+<header>
+	<h1>ResMed Todo List App</h1>
+</header>
+
+<section>
+	<div class="main">
+		<input type="text" ng-model="newTodo" ng-keyup="$event.keyCode == 13 && addNewTodo()">
+		<button class="btn btn-default" ng-click="addNewTodo()">Add</button>
+
+		<ul id="todoList">
+			<li ng-repeat="todo in todos">
+				<input ng-model="todo.done" type="checkbox"><span class="is-done-{{todo.done}}" >{{todo.title}}</span>
+			</li>
+		</ul>
+	</div>
+
+</section>
+
+<section id="debug">
+	<div>
+		<strong>Todo List model</strong>
+		<pre>{{ todos | json}}</pre>
+	</div>
+</section>

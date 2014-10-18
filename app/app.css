@@ -1,0 +1,32 @@
+/* app css stylesheet */
+
+header, section {
+	padding-left: 2em;
+}
+
+section {
+	display: inline-block;
+	box-sizing: border-box;
+
+	vertical-align: top;
+}
+
+.main {
+	width: 50em;
+}
+
+#todoList {
+	list-style: none;
+}
+
+#todoList > li input {
+	margin-right: 1em;
+}
+
+#todoList .is-done-true {
+	text-decoration: line-through;
+}
+
+pre {
+	font-size: 14px;
+}
